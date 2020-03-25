@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>template class detangled::traverser&lt;A, traversal_order::pre, wing&gt; &mdash; Predicated Tree 0.2.1-alpha documentation</title>
+  <title>template class detangled::traverser&lt;A, traversal_order::post, wing&gt; &mdash; Tree 0.1.0-alpha documentation</title>
   
 
   
@@ -21,11 +21,11 @@
   
     
       <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
-        <script type="text/javascript" src="_static/jquery.js"></script>
-        <script type="text/javascript" src="_static/underscore.js"></script>
-        <script type="text/javascript" src="_static/doctools.js"></script>
-        <script type="text/javascript" src="_static/language_data.js"></script>
-        <script type="text/javascript" src="_static/target-highlight.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script src="_static/target-highlight.js"></script>
     
     <script type="text/javascript" src="_static/js/theme.js"></script>
 
@@ -53,7 +53,7 @@
           
 
           
-            <a href="index.html" class="icon icon-home"> Predicated Tree
+            <a href="index.html" class="icon icon-home"> Tree
           
 
           
@@ -85,12 +85,9 @@
             
               <ul>
 <li class="toctree-l1"><a class="reference internal" href="group_basic.html">Basic Trees</a></li>
-<li class="toctree-l1"><a class="reference internal" href="group_predicated.html">Predicated Trees (Cartesian Trees)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="group_predicates.html">Predicates</a></li>
 </ul>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="page_installation.html">Installation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="page_special.html">Special Cases</a></li>
 <li class="toctree-l1"><a class="reference internal" href="page_tutorial.html">Tutorial</a></li>
 </ul>
 <ul class="current">
@@ -98,22 +95,14 @@
 <li class="toctree-l2 current"><a class="reference internal" href="namespace_detangled.html">namespace detangled</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="enum_detangled_side.html">enum detangled::side</a></li>
 <li class="toctree-l3"><a class="reference internal" href="enum_detangled_traversal_order.html">enum detangled::traversal_order</a></li>
-<li class="toctree-l3"><a class="reference internal" href="struct_detangled_predicate_value_type.html">template struct detangled::predicate_value_type&lt;bool(*)(const T&amp;, const T&amp;)&gt;</a></li>
-<li class="toctree-l3"><a class="reference internal" href="struct_detangled_predicate_value_type-2.html">template struct detangled::predicate_value_type&lt;bool(F::*)(const T&amp;, const T&amp;) const&gt;</a></li>
-<li class="toctree-l3"><a class="reference internal" href="struct_detangled_predicate_value_type-3.html">template struct detangled::predicate_value_type</a></li>
-<li class="toctree-l3"><a class="reference internal" href="struct_detangled_taller.html">template struct detangled::taller</a></li>
-<li class="toctree-l3"><a class="reference internal" href="struct_detangled_wrapper.html">template struct detangled::wrapper</a></li>
 <li class="toctree-l3"><a class="reference internal" href="class_detangled_format.html">class detangled::format</a></li>
-<li class="toctree-l3"><a class="reference internal" href="class_detangled_has_less.html">template class detangled::has_less</a></li>
-<li class="toctree-l3"><a class="reference internal" href="class_detangled_has_taller.html">template class detangled::has_taller</a></li>
 <li class="toctree-l3"><a class="reference internal" href="class_detangled_iterator.html">template class detangled::iterator</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">template class detangled::traverser&lt;A, traversal_order::pre, wing&gt;</a><ul class="simple">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">template class detangled::traverser&lt;A, traversal_order::post, wing&gt;</a><ul class="simple">
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="class_detangled_traverser-2.html">template class detangled::traverser&lt;A, traversal_order::in, wing&gt;</a></li>
-<li class="toctree-l3"><a class="reference internal" href="class_detangled_traverser-3.html">template class detangled::traverser&lt;A, traversal_order::post, wing&gt;</a></li>
-<li class="toctree-l3"><a class="reference internal" href="class_detangled_traverser-4.html">template class detangled::traverser</a></li>
-<li class="toctree-l3"><a class="reference internal" href="class_detangled_valid_predicate.html">template class detangled::valid_predicate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="class_detangled_traverser-3.html">template class detangled::traverser</a></li>
+<li class="toctree-l3"><a class="reference internal" href="class_detangled_traverser-4.html">template class detangled::traverser&lt;A, traversal_order::pre, wing&gt;</a></li>
 <li class="toctree-l3"><a class="reference internal" href="namespace_detangled.html#overview">Overview</a></li>
 <li class="toctree-l3"><a class="reference internal" href="namespace_detangled.html#detailed-documentation">Detailed Documentation</a></li>
 </ul>
@@ -136,7 +125,7 @@
       <nav class="wy-nav-top" aria-label="top navigation">
         
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-          <a href="index.html">Predicated Tree</a>
+          <a href="index.html">Tree</a>
         
       </nav>
 
@@ -171,7 +160,7 @@
         
           <li><a href="namespace_detangled.html">namespace detangled</a> &raquo;</li>
         
-      <li>template class detangled::traverser&lt;A, traversal_order::pre, wing&gt;</li>
+      <li>template class detangled::traverser&lt;A, traversal_order::post, wing&gt;</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -190,25 +179,25 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="template-class-detangled-traverser-a-traversal-order-pre-wing">
-<span id="doxid-classdetangled-1-1traverser-3-01-a-00-01traversal-order-1-1pre-00-01wing-01-4"></span><span id="index-0"></span><h1>template class detangled::traverser&lt;A, traversal_order::pre, wing&gt;<a class="headerlink" href="#template-class-detangled-traverser-a-traversal-order-pre-wing" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="template-class-detangled-traverser-a-traversal-order-post-wing">
+<span id="doxid-classdetangled-1-1traverser-3-01-a-00-01traversal-order-1-1post-00-01wing-01-4"></span><span id="index-0"></span><h1>template class detangled::traverser&lt;A, traversal_order::post, wing&gt;<a class="headerlink" href="#template-class-detangled-traverser-a-traversal-order-post-wing" title="Permalink to this headline">¶</a></h1>
 <div class="toctree-wrapper compound">
 </div>
 <pre class="highlight doxyrest-overview-code-block literal-block"><span></span><span class="cp">#include</span> <span class="cpf">&lt;traverser.hh&gt;</span><span class="cp"></span>
 
 <span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">A</span><span class="p">,</span> <span class="n">side</span> <span class="n">wing</span><span class="o">&gt;</span>
-<span class="k">class</span> <span class="nc">traverser</span><span class="o">&lt;</span><span class="n">A</span><span class="p">,</span> <span class="n">traversal_order</span><span class="o">::</span><span class="n">pre</span><span class="p">,</span> <span class="n">wing</span><span class="o">&gt;</span> <span class="p">{</span>
+<span class="k">class</span> <span class="nc">traverser</span><span class="o">&lt;</span><span class="n">A</span><span class="p">,</span> <span class="n">traversal_order</span><span class="o">::</span><span class="n">post</span><span class="p">,</span> <span class="n">wing</span><span class="o">&gt;</span> <span class="p">{</span>
 <span class="k">public</span><span class="o">:</span>
     <span class="c1">// methods</span>
 
     <span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">Container</span><span class="o">&gt;</span>
     <span class="k">static</span>
     <span class="n">A</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1traverser-3-01-a-00-01traversal-order-1-1pre-00-01wing-01-4-1a41e824e0de8f7b27844becd69f14d61b">begin</span><span></span><span class="p">(</span><span class="n">Container</span><span class="o">&amp;</span> <span class="n">c</span><span class="p">);</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1traverser-3-01-a-00-01traversal-order-1-1post-00-01wing-01-4-1ae7a71c04b1b291adef9b05de49f1e761">begin</span><span></span><span class="p">(</span><span class="n">Container</span><span class="o">&amp;</span> <span class="n">c</span><span class="p">);</span>
 
     <span class="k">static</span>
     <span class="kt">void</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1traverser-3-01-a-00-01traversal-order-1-1pre-00-01wing-01-4-1a27230c9273e1207d2fd81c16e9c3ec58">next</span><span></span><span class="p">(</span><span class="n">A</span><span class="o">&amp;</span> <span class="n">a</span><span class="p">);</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1traverser-3-01-a-00-01traversal-order-1-1post-00-01wing-01-4-1a170dd8fa06934916ddb5279655761069">next</span><span></span><span class="p">(</span><span class="n">A</span><span class="o">&amp;</span> <span class="n">a</span><span class="p">);</span>
 <span class="p">};</span></pre>
 </div>
 
@@ -232,7 +221,7 @@
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2019, Aditya Dalmia
+        &copy; Copyright 2020, Aditya Dalmia
 
     </p>
   </div>
