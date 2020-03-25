@@ -29,6 +29,3 @@ for (auto it = tree.inlbegin(); it != tree.inlend(); ++it) {
 ...
 
 ```
-
-See `test/predicated_tree.cpp` for example on how to build and use
-`predicated_tree`.

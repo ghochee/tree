@@ -5,5 +5,3 @@
 
 #include "tree/traverser.h"
 #include "tree/iterator.h"
-
-#include "predicated_tree/predicated_tree.h"

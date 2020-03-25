@@ -2,7 +2,7 @@ INPUT_FILE = "_xml/index.xml"
 OUTPUT_FILE = "_rst/index.rst"
 
 INTRO_FILE = "page_index.rst"
-INDEX_TITLE = "Predicated Tree"
+INDEX_TITLE = "Tree"
 
 LANGUAGE = "cpp"
 ML_SPECIFIER_MODIFIER_LIST = true

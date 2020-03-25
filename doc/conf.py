@@ -4,10 +4,10 @@ import os.path
 import sys
 sys.path.insert(1, os.path.abspath(os.environ.get('DOXYREST_ROOT', './')))
 
-project = 'Predicated Tree'
-copyright = '2019, Aditya Dalmia'
+project = 'Tree'
+copyright = '2020, Aditya Dalmia'
 author = 'Aditya Dalmia'
-release = '0.2.1-alpha'
+release = '0.1.0-alpha'
 
 master_doc = 'index'
 

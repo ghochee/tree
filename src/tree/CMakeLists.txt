@@ -1,2 +1,0 @@
-add_executable(predicated_tree predicated_tree.cpp)
-target_link_libraries(predicated_tree PRIVATE tree)

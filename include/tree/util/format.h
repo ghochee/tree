@@ -1,6 +1,8 @@
 #ifndef TREE_UTIL_FORMAT_H
 #define TREE_UTIL_FORMAT_H
 
+#include "../raw_tree.h"
+
 namespace detangled {
 
 // 'Format' tree objects for printability.

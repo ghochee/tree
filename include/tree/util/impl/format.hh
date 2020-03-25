@@ -2,7 +2,8 @@
 #include <sstream>
 #include <vector>
 
-#include "tree/enums.h"
+#include "../../enums.h"
+#include "../../raw_tree.h"
 
 namespace detangled {
 

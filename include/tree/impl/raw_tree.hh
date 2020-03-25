@@ -1,4 +1,4 @@
-#include "tree/accessor.h"
+#include "../accessor.h"
 
 namespace detangled {
 

@@ -1,4 +1,4 @@
-#include "tree/traverser.h"
+#include "../traverser.h"
 
 namespace detangled {
 
