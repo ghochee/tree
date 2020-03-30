@@ -38,7 +38,7 @@
   <link rel="stylesheet" href="_static/doxyrest-sphinx_rtd_theme.css" type="text/css" />
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Installation" href="page_installation.html" />
+    <link rel="next" title="Developer Setup" href="page_devsetup.html" />
     <link rel="prev" title="template class detangled::raw_tree" href="class_detangled_raw_tree.html" /> 
 </head>
 
@@ -103,6 +103,7 @@
 </li>
 </ul>
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="page_devsetup.html">Developer Setup</a></li>
 <li class="toctree-l1"><a class="reference internal" href="page_installation.html">Installation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="page_tutorial.html">Tutorial</a></li>
 </ul>
@@ -188,25 +189,25 @@
 <span class="k">public</span><span class="o">:</span>
     <span class="c1">// typedefs</span>
 
-    <span class="k">typedef</span> <a class="reference internal" href="class_detangled_accessor.html#doxid-classdetangled-1-1accessor"><span class="std std-ref">accessor</span></a><span></span><span class="o">&lt;</span><span class="n">ContainerType</span><span class="o">&gt;</span> <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1a18908ee72f02246cf70495a68797809b">base_type</span><span></span><span class="p">;</span>
-    <span class="k">typedef</span> <span class="k">typename</span> <a class="reference internal" href="class_detangled_accessor.html#doxid-classdetangled-1-1accessor-1a7554c1bb6cecbcf6b08afa4a856c40c8"><span class="std std-ref">base_type::container_type</span></a><span></span> <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1a6d22d85eece265692fd6f9d27918ec38">container_type</span><span></span><span class="p">;</span>
-    <span class="k">typedef</span> <span class="k">typename</span> <a class="reference internal" href="class_detangled_accessor.html#doxid-classdetangled-1-1accessor-1a4ece2c7baeea224562b590a63160f27e"><span class="std std-ref">base_type::node_type</span></a><span></span> <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1ae6f9a191ad70e77d2745064f2e0db567">node_type</span><span></span><span class="p">;</span>
-    <span class="k">typedef</span> <span class="k">typename</span> <a class="reference internal" href="class_detangled_accessor.html#doxid-classdetangled-1-1accessor-1a23eb70bdba11dca20bede78ec9c9334b"><span class="std std-ref">base_type::value_type_t</span></a><span></span> <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1abbdff5cfeddbd7a61a196f7e89ecff19">value_type_t</span><span></span><span class="p">;</span>
+    <span class="k">typedef</span> <a class="reference internal" href="class_detangled_accessor.html#doxid-classdetangled-1-1accessor"><span class="std std-ref">accessor</span></a><span></span><span class="o">&lt;</span><span class="n">ContainerType</span><span class="o">&gt;</span> <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1a18908ee72f02246cf70495a68797809b"><span></span><span class="n">base_type</span></span><span></span><span class="p">;</span>
+    <span class="k">typedef</span> <span class="k">typename</span> <a class="reference internal" href="class_detangled_accessor.html#doxid-classdetangled-1-1accessor-1a7554c1bb6cecbcf6b08afa4a856c40c8"><span class="std std-ref">base_type::container_type</span></a><span></span> <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1a6d22d85eece265692fd6f9d27918ec38"><span></span><span class="n">container_type</span></span><span></span><span class="p">;</span>
+    <span class="k">typedef</span> <span class="k">typename</span> <a class="reference internal" href="class_detangled_accessor.html#doxid-classdetangled-1-1accessor-1a4ece2c7baeea224562b590a63160f27e"><span class="std std-ref">base_type::node_type</span></a><span></span> <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1ae6f9a191ad70e77d2745064f2e0db567"><span></span><span class="n">node_type</span></span><span></span><span class="p">;</span>
+    <span class="k">typedef</span> <span class="k">typename</span> <a class="reference internal" href="class_detangled_accessor.html#doxid-classdetangled-1-1accessor-1a23eb70bdba11dca20bede78ec9c9334b"><span class="std std-ref">base_type::value_type_t</span></a><span></span> <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1abbdff5cfeddbd7a61a196f7e89ecff19"><span></span><span class="n">value_type_t</span></span><span></span><span class="p">;</span>
 
     <span class="c1">// construction</span>
 
     <a class="reference internal" href="#doxid-classdetangled-1-1virtual-accessor-1a60c86b869ce46de31f074576c7dbd31f"><span class="std std-ref">virtual_accessor</span></a><span></span><span class="p">(</span><a class="reference internal" href="#doxid-classdetangled-1-1virtual-accessor-1a18908ee72f02246cf70495a68797809b"><span class="std std-ref">base_type</span></a><span></span><span class="o">&amp;</span> <span class="n">pos</span><span class="p">);</span>
     <a class="reference internal" href="#doxid-classdetangled-1-1virtual-accessor-1a275723c1c38c7a968f9ffad5850d4324"><span class="std std-ref">virtual_accessor</span></a><span></span><span class="p">(</span><a class="reference internal" href="#doxid-classdetangled-1-1virtual-accessor-1ae6f9a191ad70e77d2745064f2e0db567"><span class="std std-ref">node_type</span></a><span></span><span class="o">&amp;</span> <span class="n">node</span><span class="p">,</span> <span class="kt">int16_t</span> <span class="n">depth</span><span class="p">);</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1adf713629e02e21c82b7706f1179eee0e">virtual_accessor</span><span></span><span class="p">(</span><span class="k">const</span> <span class="n">virtual_accessor</span><span class="o">&amp;</span><span class="p">);</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1a36eda90622967de2b3befd992caa8a34">virtual_accessor</span><span></span><span class="p">(</span><span class="n">virtual_accessor</span><span class="o">&amp;&amp;</span><span class="p">);</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1adf713629e02e21c82b7706f1179eee0e"><span></span><span class="n">virtual_accessor</span></span><span></span><span class="p">(</span><span class="k">const</span> <span class="n">virtual_accessor</span><span class="o">&amp;</span><span class="p">);</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1a36eda90622967de2b3befd992caa8a34"><span></span><span class="n">virtual_accessor</span></span><span></span><span class="p">(</span><span class="n">virtual_accessor</span><span class="o">&amp;&amp;</span><span class="p">);</span>
 
     <span class="c1">// methods</span>
 
     <span class="n">virtual_accessor</span><span class="o">&amp;</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1a9b7d1df9350e22518c19a83e21c91e0c">operator=</span><span></span><span class="p">(</span><span class="k">const</span> <span class="n">virtual_accessor</span><span class="o">&amp;</span><span class="p">);</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1a9b7d1df9350e22518c19a83e21c91e0c"><span></span><span class="k">operator</span><span class="o">=</span></span><span></span><span class="p">(</span><span class="k">const</span> <span class="n">virtual_accessor</span><span class="o">&amp;</span><span class="p">);</span>
 
     <span class="n">virtual_accessor</span><span class="o">&amp;</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1a61526dd05ec6dcf2e844ac53c0392485">operator=</span><span></span><span class="p">(</span><span class="n">virtual_accessor</span><span class="o">&amp;&amp;</span><span class="p">);</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1a61526dd05ec6dcf2e844ac53c0392485"><span></span><span class="k">operator</span><span class="o">=</span></span><span></span><span class="p">(</span><span class="n">virtual_accessor</span><span class="o">&amp;&amp;</span><span class="p">);</span>
 
     <a class="reference internal" href="#doxid-classdetangled-1-1virtual-accessor-1accadd064a9ff813c4721f8c4a58bb994"><span class="std std-ref">operator bool</span></a><span></span><span class="p">()</span> <span class="k">const</span><span class="p">;</span>
 
@@ -214,16 +215,16 @@
     <a class="reference internal" href="#doxid-classdetangled-1-1virtual-accessor-1aaeadca82371acd2c3fe7c13362833488"><span class="std std-ref">operator==</span></a><span></span><span class="p">(</span><span class="k">const</span> <span class="n">virtual_accessor</span><span class="o">&amp;</span> <span class="n">other</span><span class="p">)</span> <span class="k">const</span><span class="p">;</span>
 
     <span class="kt">bool</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1a08318930d52810acbe3b5f6eae875c54">operator!=</span><span></span><span class="p">(</span><span class="k">const</span> <span class="n">virtual_accessor</span><span class="o">&amp;</span> <span class="n">other</span><span class="p">)</span> <span class="k">const</span><span class="p">;</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1a08318930d52810acbe3b5f6eae875c54"><span></span><span class="k">operator</span><span class="o">!=</span></span><span></span><span class="p">(</span><span class="k">const</span> <span class="n">virtual_accessor</span><span class="o">&amp;</span> <span class="n">other</span><span class="p">)</span> <span class="k">const</span><span class="p">;</span>
 
     <span class="kt">bool</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1aa3d692549098fe239b7a528e8e5f5795">is_root</span><span></span><span class="p">()</span> <span class="k">const</span><span class="p">;</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1aa3d692549098fe239b7a528e8e5f5795"><span></span><span class="n">is_root</span></span><span></span><span class="p">()</span> <span class="k">const</span><span class="p">;</span>
 
     <span class="kt">uint32_t</span>
     <a class="reference internal" href="#doxid-classdetangled-1-1virtual-accessor-1a74a36d42ea8e7a874fed2079086faa9d"><span class="std std-ref">depth</span></a><span></span><span class="p">()</span> <span class="k">const</span><span class="p">;</span>
 
     <span class="kt">void</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1aaaeb59d38de4e333479d64e5e1b35e81">up</span><span></span><span class="p">();</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1aaaeb59d38de4e333479d64e5e1b35e81"><span></span><span class="n">up</span></span><span></span><span class="p">();</span>
 
     <span class="kt">void</span>
     <a class="reference internal" href="#doxid-classdetangled-1-1virtual-accessor-1ab7dc8acdb39db55da89530140be0a8bb"><span class="std std-ref">root</span></a><span></span><span class="p">();</span>
@@ -233,7 +234,7 @@
     <a class="reference internal" href="#doxid-classdetangled-1-1virtual-accessor-1ab2a235401baa5eeba8fc43991c07ef14"><span class="std std-ref">down</span></a><span></span><span class="p">();</span>
 
     <span class="kt">bool</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1a16cc67d4c1ec00113e2885efbacb2c88">down</span><span></span><span class="p">(</span><a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507"><span class="std std-ref">side</span></a><span></span> <span class="n">wing</span><span class="p">);</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1virtual-accessor-1a16cc67d4c1ec00113e2885efbacb2c88"><span></span><span class="n">down</span></span><span></span><span class="p">(</span><a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507"><span class="std std-ref">side</span></a><span></span> <span class="n">wing</span><span class="p">);</span>
 <span class="p">};</span></pre>
 <div class="section" id="inherited-members">
 <h3>Inherited Members<a class="headerlink" href="#inherited-members" title="Permalink to this headline">¶</a></h3>
@@ -394,7 +395,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="page_installation.html" class="btn btn-neutral float-right" title="Installation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="page_devsetup.html" class="btn btn-neutral float-right" title="Developer Setup" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="class_detangled_raw_tree.html" class="btn btn-neutral float-left" title="template class detangled::raw_tree" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>

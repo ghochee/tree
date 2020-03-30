@@ -100,6 +100,7 @@
 </li>
 </ul>
 <ul>
+<li class="toctree-l1"><a class="reference internal" href="page_devsetup.html">Developer Setup</a></li>
 <li class="toctree-l1"><a class="reference internal" href="page_installation.html">Installation</a></li>
 <li class="toctree-l1"><a class="reference internal" href="page_tutorial.html">Tutorial</a></li>
 </ul>
@@ -185,18 +186,18 @@
 <span class="k">public</span><span class="o">:</span>
     <span class="c1">// typedefs</span>
 
-    <span class="k">typedef</span> <span class="n">T</span> <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a9329cdce5fca0d42e942e0477aada593">value_type</span><span></span><span class="p">;</span>
-    <span class="k">typedef</span> <a class="reference internal" href="#doxid-classdetangled-1-1raw-tree-1a9329cdce5fca0d42e942e0477aada593"><span class="std std-ref">value_type</span></a><span></span><span class="o">&amp;</span> <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1aeea262727888505ed67413bebef46e09">reference</span><span></span><span class="p">;</span>
-    <span class="k">typedef</span> <span class="kt">ptrdiff_t</span> <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a26fa1decb08da90c03460f9622d3b8e7">difference_type</span><span></span><span class="p">;</span>
-    <span class="k">typedef</span> <span class="kt">size_t</span> <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a9293b290cf6538ce252ba36326147c59">size_type</span><span></span><span class="p">;</span>
+    <span class="k">typedef</span> <span class="n">T</span> <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a9329cdce5fca0d42e942e0477aada593"><span></span><span class="n">value_type</span></span><span></span><span class="p">;</span>
+    <span class="k">typedef</span> <a class="reference internal" href="#doxid-classdetangled-1-1raw-tree-1a9329cdce5fca0d42e942e0477aada593"><span class="std std-ref">value_type</span></a><span></span><span class="o">&amp;</span> <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1aeea262727888505ed67413bebef46e09"><span></span><span class="n">reference</span></span><span></span><span class="p">;</span>
+    <span class="k">typedef</span> <span class="kt">ptrdiff_t</span> <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a26fa1decb08da90c03460f9622d3b8e7"><span></span><span class="n">difference_type</span></span><span></span><span class="p">;</span>
+    <span class="k">typedef</span> <span class="kt">size_t</span> <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a9293b290cf6538ce252ba36326147c59"><span></span><span class="n">size_type</span></span><span></span><span class="p">;</span>
 
     <span class="c1">// fields</span>
 
-    <span class="k">const</span> <span class="k">typedef</span> <a class="reference internal" href="#doxid-classdetangled-1-1raw-tree-1a9329cdce5fca0d42e942e0477aada593"><span class="std std-ref">value_type</span></a><span></span><span class="o">&amp;</span> <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a3353957b47d99663be4a77e57aa2fcd4">const_reference</span><span></span><span class="p">;</span>
+    <span class="k">const</span> <span class="k">typedef</span> <a class="reference internal" href="#doxid-classdetangled-1-1raw-tree-1a9329cdce5fca0d42e942e0477aada593"><span class="std std-ref">value_type</span></a><span></span><span class="o">&amp;</span> <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a3353957b47d99663be4a77e57aa2fcd4"><span></span><span class="n">const_reference</span></span><span></span><span class="p">;</span>
 
     <span class="c1">// construction</span>
 
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a3f50f1f724dbc7d7ef312885584608c9">raw_tree</span><span></span><span class="p">();</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a3f50f1f724dbc7d7ef312885584608c9"><span></span><span class="n">raw_tree</span></span><span></span><span class="p">();</span>
 
     <span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span> <span class="n">U</span><span class="o">&gt;</span>
     <a class="reference internal" href="#doxid-classdetangled-1-1raw-tree-1ad04a6e89bc13ad74e46cead4c2235afc"><span class="std std-ref">raw_tree</span></a><span></span><span class="p">(</span><span class="n">U</span><span class="o">&amp;&amp;</span> <span class="n">value</span><span class="p">);</span>
@@ -206,7 +207,7 @@
     <span class="c1">// methods</span>
 
     <span class="n">raw_tree</span><span class="o">&amp;</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a4f662193f4901a739219fd77aac3ecd0">operator=</span><span></span><span class="p">(</span><span class="n">raw_tree</span><span class="o">&amp;&amp;</span> <span class="n">other</span><span class="p">);</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a4f662193f4901a739219fd77aac3ecd0"><span></span><span class="k">operator</span><span class="o">=</span></span><span></span><span class="p">(</span><span class="n">raw_tree</span><span class="o">&amp;&amp;</span> <span class="n">other</span><span class="p">);</span>
 
     <span class="kt">void</span>
     <a class="reference internal" href="#doxid-classdetangled-1-1raw-tree-1ab15d1c0f6800dd99929c1231cf36deb1"><span class="std std-ref">swap</span></a><span></span><span class="p">(</span><span class="n">raw_tree</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;</span> <span class="n">other</span><span class="p">);</span>
@@ -215,7 +216,7 @@
     <a class="reference internal" href="#doxid-classdetangled-1-1raw-tree-1a274e92da36906dbb5acd1af103ee2cf5"><span class="std std-ref">operator*</span></a><span></span><span class="p">()</span> <span class="k">const</span><span class="p">;</span>
 
     <span class="n">T</span><span class="o">&amp;</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a5a68a616e06f9d99e9e11491c24d2c12">operator*</span><span></span><span class="p">();</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a5a68a616e06f9d99e9e11491c24d2c12"><span></span><span class="k">operator</span><span class="o">*</span></span><span></span><span class="p">();</span>
 
     <span class="kt">bool</span>
     <a class="reference internal" href="#doxid-classdetangled-1-1raw-tree-1a386c427141d7df47fbbc2e799c5ec912"><span class="std std-ref">has_parent</span></a><span></span><span class="p">()</span> <span class="k">const</span><span class="p">;</span>
@@ -224,7 +225,7 @@
     <a class="reference internal" href="#doxid-classdetangled-1-1raw-tree-1a6f8fb1085f9b2ef8b9e7af41a928ff7f"><span class="std std-ref">parent</span></a><span></span><span class="p">()</span> <span class="k">const</span><span class="p">;</span>
 
     <span class="n">raw_tree</span><span class="o">&amp;</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a74d6084b4e2e36521f43adfc7d723d5f">parent</span><span></span><span class="p">();</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a74d6084b4e2e36521f43adfc7d723d5f"><span></span><span class="n">parent</span></span><span></span><span class="p">();</span>
 
     <span class="k">template</span> <span class="o">&lt;</span><span class="n">side</span> <span class="n">wing</span><span class="o">&gt;</span>
     <span class="kt">bool</span>
@@ -238,21 +239,21 @@
     <a class="reference internal" href="#doxid-classdetangled-1-1raw-tree-1a345501f02e11f0e45eccb8c173f14b42"><span class="std std-ref">has_child</span></a><span></span><span class="p">()</span> <span class="k">const</span><span class="p">;</span>
 
     <span class="kt">bool</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a7a6fe9033951625b3643dac831b5df0c">has_child</span><span></span><span class="p">(</span><a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507"><span class="std std-ref">side</span></a><span></span> <span class="n">wing</span><span class="p">)</span> <span class="k">const</span><span class="p">;</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a7a6fe9033951625b3643dac831b5df0c"><span></span><span class="n">has_child</span></span><span></span><span class="p">(</span><a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507"><span class="std std-ref">side</span></a><span></span> <span class="n">wing</span><span class="p">)</span> <span class="k">const</span><span class="p">;</span>
 
     <span class="k">template</span> <span class="o">&lt;</span><span class="n">side</span> <span class="n">wing</span><span class="o">&gt;</span>
     <span class="k">const</span> <span class="n">raw_tree</span><span class="o">&amp;</span>
     <a class="reference internal" href="#doxid-classdetangled-1-1raw-tree-1a902d7bc88d2ca6c9d5f8e21b7c53bfe6"><span class="std std-ref">child</span></a><span></span><span class="p">()</span> <span class="k">const</span><span class="p">;</span>
 
     <span class="k">const</span> <span class="n">raw_tree</span><span class="o">&amp;</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1af7fc2626b14c03d31a4c2a8db97513ac">child</span><span></span><span class="p">(</span><a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507"><span class="std std-ref">side</span></a><span></span> <span class="n">wing</span><span class="p">)</span> <span class="k">const</span><span class="p">;</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1af7fc2626b14c03d31a4c2a8db97513ac"><span></span><span class="n">child</span></span><span></span><span class="p">(</span><a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507"><span class="std std-ref">side</span></a><span></span> <span class="n">wing</span><span class="p">)</span> <span class="k">const</span><span class="p">;</span>
 
     <span class="k">template</span> <span class="o">&lt;</span><span class="n">side</span> <span class="n">wing</span><span class="o">&gt;</span>
     <span class="n">raw_tree</span><span class="o">&amp;</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a04d5d2439bd0f6b0d7cac69f3e05fc7f">child</span><span></span><span class="p">();</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a04d5d2439bd0f6b0d7cac69f3e05fc7f"><span></span><span class="n">child</span></span><span></span><span class="p">();</span>
 
     <span class="n">raw_tree</span><span class="o">&amp;</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1aed13e2a8cf1d055c5aac3852376d70ab">child</span><span></span><span class="p">(</span><a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507"><span class="std std-ref">side</span></a><span></span> <span class="n">wing</span><span class="p">);</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1aed13e2a8cf1d055c5aac3852376d70ab"><span></span><span class="n">child</span></span><span></span><span class="p">(</span><a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507"><span class="std std-ref">side</span></a><span></span> <span class="n">wing</span><span class="p">);</span>
 
     <span class="kt">size_t</span>
     <a class="reference internal" href="#doxid-classdetangled-1-1raw-tree-1ad48c65edf78529dfcb83b12e95b9b088"><span class="std std-ref">size</span></a><span></span><span class="p">()</span> <span class="k">const</span><span class="p">;</span>
@@ -266,7 +267,7 @@
     <a class="reference internal" href="#doxid-classdetangled-1-1raw-tree-1a056116596d765b640a469a4d7573cb63"><span class="std std-ref">rotate</span></a><span></span><span class="p">();</span>
 
     <span class="kt">void</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a2059e58bfcafecc823a97809223a9983">rotate</span><span></span><span class="p">(</span><a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507"><span class="std std-ref">side</span></a><span></span> <span class="n">wing</span><span class="p">);</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a2059e58bfcafecc823a97809223a9983"><span></span><span class="n">rotate</span></span><span></span><span class="p">(</span><a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507"><span class="std std-ref">side</span></a><span></span> <span class="n">wing</span><span class="p">);</span>
 
     <span class="kt">void</span>
     <a class="reference internal" href="#doxid-classdetangled-1-1raw-tree-1aa8326cdbc5ef5ea6eecf1d1a72624944"><span class="std std-ref">flip</span></a><span></span><span class="p">();</span>
@@ -276,7 +277,7 @@
     <a class="reference internal" href="#doxid-classdetangled-1-1raw-tree-1a223ce6bfb9cd303d8016da90a6382564"><span class="std std-ref">replace</span></a><span></span><span class="p">(</span><span class="n">raw_tree</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;&amp;</span> <span class="n">child</span><span class="p">);</span>
 
     <span class="kt">void</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a9132a7ab6c0ea1d03cb5aa9ff3634fa3">replace</span><span></span><span class="p">(</span><a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507"><span class="std std-ref">side</span></a><span></span> <span class="n">wing</span><span class="p">,</span> <span class="n">raw_tree</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;&amp;</span> <span class="n">child</span><span class="p">);</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a9132a7ab6c0ea1d03cb5aa9ff3634fa3"><span></span><span class="n">replace</span></span><span></span><span class="p">(</span><a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507"><span class="std std-ref">side</span></a><span></span> <span class="n">wing</span><span class="p">,</span> <span class="n">raw_tree</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;&amp;</span> <span class="n">child</span><span class="p">);</span>
 
     <span class="k">template</span> <span class="o">&lt;</span><span class="n">side</span> <span class="n">wing</span><span class="p">,</span> <span class="k">typename</span><span class="p">...</span> <span class="n">Args</span><span class="o">&gt;</span>
     <span class="kt">void</span>
@@ -284,7 +285,7 @@
 
     <span class="k">template</span> <span class="o">&lt;</span><span class="k">typename</span><span class="p">...</span> <span class="n">Args</span><span class="o">&gt;</span>
     <span class="kt">void</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a505a5eb78218a767b1327480b47e3624">emplace</span><span></span><span class="p">(</span><a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507"><span class="std std-ref">side</span></a><span></span> <span class="n">wing</span><span class="p">,</span> <span class="n">Args</span><span class="o">&amp;&amp;</span><span class="p">...</span> <span class="n">args</span><span class="p">);</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a505a5eb78218a767b1327480b47e3624"><span></span><span class="n">emplace</span></span><span></span><span class="p">(</span><a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507"><span class="std std-ref">side</span></a><span></span> <span class="n">wing</span><span class="p">,</span> <span class="n">Args</span><span class="o">&amp;&amp;</span><span class="p">...</span> <span class="n">args</span><span class="p">);</span>
 
     <span class="k">template</span> <span class="o">&lt;</span><span class="n">side</span> <span class="n">wing</span><span class="p">,</span> <span class="n">side</span> <span class="n">gc_wing</span><span class="p">,</span> <span class="k">typename</span><span class="p">...</span> <span class="n">Args</span><span class="o">&gt;</span>
     <span class="kt">void</span>
@@ -295,7 +296,7 @@
     <a class="reference internal" href="#doxid-classdetangled-1-1raw-tree-1abf7c40eef41eabc516aeaf8dd099d7e8"><span class="std std-ref">detach</span></a><span></span><span class="p">();</span>
 
     <span class="n">raw_tree</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1aebdd657acbd98a26f82d29edb6fd95f7">detach</span><span></span><span class="p">(</span><a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507"><span class="std std-ref">side</span></a><span></span> <span class="n">wing</span><span class="p">);</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1aebdd657acbd98a26f82d29edb6fd95f7"><span></span><span class="n">detach</span></span><span></span><span class="p">(</span><a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507"><span class="std std-ref">side</span></a><span></span> <span class="n">wing</span><span class="p">);</span>
 
     <span class="k">template</span> <span class="o">&lt;</span><span class="n">traversal_order</span> <span class="n">order</span><span class="p">,</span> <span class="n">side</span> <span class="n">wing</span><span class="o">&gt;</span>
     <a class="reference internal" href="class_detangled_iterator.html#doxid-classdetangled-1-1iterator"><span class="std std-ref">iterator</span></a><span></span><span class="o">&lt;</span><span class="n">raw_tree</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">order</span><span class="p">,</span> <span class="n">wing</span><span class="o">&gt;</span>
@@ -303,7 +304,7 @@
 
     <span class="k">template</span> <span class="o">&lt;</span><span class="n">traversal_order</span> <span class="n">order</span><span class="p">,</span> <span class="n">side</span> <span class="n">wing</span><span class="o">&gt;</span>
     <a class="reference internal" href="class_detangled_iterator.html#doxid-classdetangled-1-1iterator"><span class="std std-ref">iterator</span></a><span></span><span class="o">&lt;</span><span class="k">const</span> <span class="n">raw_tree</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">order</span><span class="p">,</span> <span class="n">wing</span><span class="o">&gt;</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a61b9c7b941d19f91d421a80795de0765">begin</span><span></span><span class="p">()</span> <span class="k">const</span><span class="p">;</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a61b9c7b941d19f91d421a80795de0765"><span></span><span class="n">begin</span></span><span></span><span class="p">()</span> <span class="k">const</span><span class="p">;</span>
 
     <span class="k">template</span> <span class="o">&lt;</span><span class="n">traversal_order</span> <span class="n">order</span><span class="p">,</span> <span class="n">side</span> <span class="n">wing</span><span class="o">&gt;</span>
     <a class="reference internal" href="class_detangled_iterator.html#doxid-classdetangled-1-1iterator"><span class="std std-ref">iterator</span></a><span></span><span class="o">&lt;</span><span class="n">raw_tree</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">order</span><span class="p">,</span> <span class="n">wing</span><span class="o">&gt;</span>
@@ -311,26 +312,26 @@
 
     <span class="k">template</span> <span class="o">&lt;</span><span class="n">traversal_order</span> <span class="n">order</span><span class="p">,</span> <span class="n">side</span> <span class="n">wing</span><span class="o">&gt;</span>
     <a class="reference internal" href="class_detangled_iterator.html#doxid-classdetangled-1-1iterator"><span class="std std-ref">iterator</span></a><span></span><span class="o">&lt;</span><span class="k">const</span> <span class="n">raw_tree</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">order</span><span class="p">,</span> <span class="n">wing</span><span class="o">&gt;</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1afbdd457f938b10b841b7a06832a9e2d2">end</span><span></span><span class="p">()</span> <span class="k">const</span><span class="p">;</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1afbdd457f938b10b841b7a06832a9e2d2"><span></span><span class="n">end</span></span><span></span><span class="p">()</span> <span class="k">const</span><span class="p">;</span>
 
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1ae02cb91aa243d83b2121e8a8dad366e3">RAW_TREE_MAKE_ALIAS</span><span></span><span class="p">(</span><span class="n">inl</span><span class="p">,</span> <a class="reference internal" href="enum_detangled_traversal_order.html#doxid-namespacedetangled-1ad707dcf610a906a4b646aac110da16dca13b5bfe96f3e2fe411c9f66f4a582adf"><span class="std std-ref">in</span></a><span></span><span class="p">,</span> <a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507a811882fecd5c7618d7099ebbd39ea254"><span class="std std-ref">left</span></a><span></span><span class="p">);</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1ad887a71a5e2ca9248d1c3c0f729cfd59">RAW_TREE_MAKE_ALIAS</span><span></span><span class="p">(</span><span class="n">inr</span><span class="p">,</span> <a class="reference internal" href="enum_detangled_traversal_order.html#doxid-namespacedetangled-1ad707dcf610a906a4b646aac110da16dca13b5bfe96f3e2fe411c9f66f4a582adf"><span class="std std-ref">in</span></a><span></span><span class="p">,</span> <a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507a7c4f29407893c334a6cb7a87bf045c0d"><span class="std std-ref">right</span></a><span></span><span class="p">);</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a00e9a80579f91b8f557926d5828c09c9">RAW_TREE_MAKE_ALIAS</span><span></span><span class="p">(</span><span class="n">prel</span><span class="p">,</span> <a class="reference internal" href="enum_detangled_traversal_order.html#doxid-namespacedetangled-1ad707dcf610a906a4b646aac110da16dca6bf9e70a1f928aba143ef1eebe2720b5"><span class="std std-ref">pre</span></a><span></span><span class="p">,</span> <a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507a811882fecd5c7618d7099ebbd39ea254"><span class="std std-ref">left</span></a><span></span><span class="p">);</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a24ac2b166484f56aedfd872c6ac6db98">RAW_TREE_MAKE_ALIAS</span><span></span><span class="p">(</span><span class="n">prer</span><span class="p">,</span> <a class="reference internal" href="enum_detangled_traversal_order.html#doxid-namespacedetangled-1ad707dcf610a906a4b646aac110da16dca6bf9e70a1f928aba143ef1eebe2720b5"><span class="std std-ref">pre</span></a><span></span><span class="p">,</span> <a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507a7c4f29407893c334a6cb7a87bf045c0d"><span class="std std-ref">right</span></a><span></span><span class="p">);</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1ac10c728f1dc461db2e40edabc4faf6cb">RAW_TREE_MAKE_ALIAS</span><span></span><span class="p">(</span><span class="n">postl</span><span class="p">,</span> <a class="reference internal" href="enum_detangled_traversal_order.html#doxid-namespacedetangled-1ad707dcf610a906a4b646aac110da16dca42b90196b487c54069097a68fe98ab6f"><span class="std std-ref">post</span></a><span></span><span class="p">,</span> <a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507a811882fecd5c7618d7099ebbd39ea254"><span class="std std-ref">left</span></a><span></span><span class="p">);</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1ab883e1123bceb97a40113bba57eddbef">RAW_TREE_MAKE_ALIAS</span><span></span><span class="p">(</span><span class="n">postr</span><span class="p">,</span> <a class="reference internal" href="enum_detangled_traversal_order.html#doxid-namespacedetangled-1ad707dcf610a906a4b646aac110da16dca42b90196b487c54069097a68fe98ab6f"><span class="std std-ref">post</span></a><span></span><span class="p">,</span> <a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507a7c4f29407893c334a6cb7a87bf045c0d"><span class="std std-ref">right</span></a><span></span><span class="p">);</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1ae02cb91aa243d83b2121e8a8dad366e3"><span></span><span class="n">RAW_TREE_MAKE_ALIAS</span></span><span></span><span class="p">(</span><span class="n">inl</span><span class="p">,</span> <a class="reference internal" href="enum_detangled_traversal_order.html#doxid-namespacedetangled-1ad707dcf610a906a4b646aac110da16dca13b5bfe96f3e2fe411c9f66f4a582adf"><span class="std std-ref">in</span></a><span></span><span class="p">,</span> <a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507a811882fecd5c7618d7099ebbd39ea254"><span class="std std-ref">left</span></a><span></span><span class="p">);</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1ad887a71a5e2ca9248d1c3c0f729cfd59"><span></span><span class="n">RAW_TREE_MAKE_ALIAS</span></span><span></span><span class="p">(</span><span class="n">inr</span><span class="p">,</span> <a class="reference internal" href="enum_detangled_traversal_order.html#doxid-namespacedetangled-1ad707dcf610a906a4b646aac110da16dca13b5bfe96f3e2fe411c9f66f4a582adf"><span class="std std-ref">in</span></a><span></span><span class="p">,</span> <a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507a7c4f29407893c334a6cb7a87bf045c0d"><span class="std std-ref">right</span></a><span></span><span class="p">);</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a00e9a80579f91b8f557926d5828c09c9"><span></span><span class="n">RAW_TREE_MAKE_ALIAS</span></span><span></span><span class="p">(</span><span class="n">prel</span><span class="p">,</span> <a class="reference internal" href="enum_detangled_traversal_order.html#doxid-namespacedetangled-1ad707dcf610a906a4b646aac110da16dca6bf9e70a1f928aba143ef1eebe2720b5"><span class="std std-ref">pre</span></a><span></span><span class="p">,</span> <a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507a811882fecd5c7618d7099ebbd39ea254"><span class="std std-ref">left</span></a><span></span><span class="p">);</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a24ac2b166484f56aedfd872c6ac6db98"><span></span><span class="n">RAW_TREE_MAKE_ALIAS</span></span><span></span><span class="p">(</span><span class="n">prer</span><span class="p">,</span> <a class="reference internal" href="enum_detangled_traversal_order.html#doxid-namespacedetangled-1ad707dcf610a906a4b646aac110da16dca6bf9e70a1f928aba143ef1eebe2720b5"><span class="std std-ref">pre</span></a><span></span><span class="p">,</span> <a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507a7c4f29407893c334a6cb7a87bf045c0d"><span class="std std-ref">right</span></a><span></span><span class="p">);</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1ac10c728f1dc461db2e40edabc4faf6cb"><span></span><span class="n">RAW_TREE_MAKE_ALIAS</span></span><span></span><span class="p">(</span><span class="n">postl</span><span class="p">,</span> <a class="reference internal" href="enum_detangled_traversal_order.html#doxid-namespacedetangled-1ad707dcf610a906a4b646aac110da16dca42b90196b487c54069097a68fe98ab6f"><span class="std std-ref">post</span></a><span></span><span class="p">,</span> <a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507a811882fecd5c7618d7099ebbd39ea254"><span class="std std-ref">left</span></a><span></span><span class="p">);</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1ab883e1123bceb97a40113bba57eddbef"><span></span><span class="n">RAW_TREE_MAKE_ALIAS</span></span><span></span><span class="p">(</span><span class="n">postr</span><span class="p">,</span> <a class="reference internal" href="enum_detangled_traversal_order.html#doxid-namespacedetangled-1ad707dcf610a906a4b646aac110da16dca42b90196b487c54069097a68fe98ab6f"><span class="std std-ref">post</span></a><span></span><span class="p">,</span> <a class="reference internal" href="enum_detangled_side.html#doxid-namespacedetangled-1a983b09eb3e2eaafdff4093f0af2d3507a7c4f29407893c334a6cb7a87bf045c0d"><span class="std std-ref">right</span></a><span></span><span class="p">);</span>
 
     <span class="k">template</span> <span class="o">&lt;</span><span class="n">side</span> <span class="n">wing</span><span class="o">&gt;</span>
     <span class="k">const</span> <span class="n">raw_tree</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a42cbf660c74b73a5d207fb1a5c18d2e0">child</span><span></span><span class="p">()</span> <span class="k">const</span><span class="p">;</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a42cbf660c74b73a5d207fb1a5c18d2e0"><span></span><span class="n">child</span></span><span></span><span class="p">()</span> <span class="k">const</span><span class="p">;</span>
 
     <span class="k">template</span> <span class="o">&lt;</span><span class="n">side</span> <span class="n">wing</span><span class="o">&gt;</span>
     <span class="n">raw_tree</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;&amp;</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1aed7262d7d3bcb25c3096df9b825b6033">child</span><span></span><span class="p">();</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1aed7262d7d3bcb25c3096df9b825b6033"><span></span><span class="n">child</span></span><span></span><span class="p">();</span>
 
     <span class="k">template</span> <span class="o">&lt;</span><span class="n">side</span> <span class="n">wing</span><span class="o">&gt;</span>
     <span class="n">raw_tree</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span>
-    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a311c7661c98a1495fdcd7b03df9b8c02">detach</span><span></span><span class="p">();</span>
+    <span class="doxyrest-code-target target" id="doxid-classdetangled-1-1raw-tree-1a311c7661c98a1495fdcd7b03df9b8c02"><span></span><span class="n">detach</span></span><span></span><span class="p">();</span>
 <span class="p">};</span></pre>
 </div>
 <div class="section" id="detailed-documentation">
